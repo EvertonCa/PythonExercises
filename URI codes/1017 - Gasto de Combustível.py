@@ -1,0 +1,5 @@
+horas = int(input())
+velocidade = int(input())
+distancia = float(horas*velocidade)
+litros = float(distancia/12)
+print("%0.3f"%(litros))
